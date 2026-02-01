@@ -11,7 +11,7 @@ permalink: /
 
 ![Banner](https://via.placeholder.com/800x400?text=ModuPlane+Pro+Demo)
 
-## 🚀 Key Features
+## Key Features
 
 *   **Mode-less Interaction**: Control your character (WASD/Joystick) and interaction with UI (Mouse) at the same time without state switching.
 *   **Hybrid UI System**:
@@ -24,13 +24,13 @@ permalink: /
 *   **Dual Input Support**: Additive input combines Keyboard (WASD/QE) and Joystick (Analog Stick/Twist) for 100% control authority.
 *   **Procedural Generation**: logic-driven environment and UI creation for maximum flexibility.
 
-## 📦 Requirements
+## Requirements
 
 *   **Unity 6.3.2 LTS** (HDRP) or higher.
 *   **Input System Package** (Active).
 *   **UI Toolkit** (Built-in).
 
-## 🏃 Quick Start
+## Quick Start
 
 Go to the [Installation Page](./docs/installation.html) to set up the package in your project.
 
