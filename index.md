@@ -1,35 +1,38 @@
 ---
-title: Home
 layout: home
+title: Getting Started
+nav_order: 1
+permalink: /
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# ModuPlane Pro
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+**ModuPlane Pro** is an advanced **Unity Input & UI Framework** designed for **mode-less simultaneous interaction**. It seamlessly bridges the gap between First-Person character control and complex World-Space/Screen-Space UI manipulation, allowing users to control a character with a joystick/keyboard while simultaneously interacting with UI elements using a mouse.
 
-More specifically, the created site:
+![Banner](https://via.placeholder.com/800x400?text=ModuPlane+Pro+Demo)
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## 🚀 Key Features
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+*   **Mode-less Interaction**: Control your character (WASD/Joystick) and interaction with UI (Mouse) at the same time without state switching.
+*   **Hybrid UI System**:
+    *   **World-Space UI**: Buttons exist physically in the 3D world on a plane.
+    *   **Screen-Space UI**: Overlay buttons that stick to screen edges (responsive to window resizing).
+*   **Advanced Interaction**:
+    *   **Drag & Drop**: Move buttons and the world plane itself.
+    *   **Resize & Rotate**: Resize buttons via corners or scroll wheel; rotate with right-click drag.
+    *   **Grid Snapping**: Hold `SHIFT` for precise adjustments.
+*   **Dual Input Support**: Additive input combines Keyboard (WASD/QE) and Joystick (Analog Stick/Twist) for 100% control authority.
+*   **Procedural Generation**: logic-driven environment and UI creation for maximum flexibility.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## 📦 Requirements
 
-To get started with creating a site, simply:
+*   **Unity 6.3.2 LTS** (HDRP) or higher.
+*   **Input System Package** (Active).
+*   **UI Toolkit** (Built-in).
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+## 🏃 Quick Start
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+Go to the [Installation Page](./docs/installation.html) to set up the package in your project.
 
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+---
+*Created by DecNet Games.*
